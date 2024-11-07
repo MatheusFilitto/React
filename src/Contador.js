@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import imagemmenino from './img/imagem.png';
-import imagemmenina from './img/menina.png';
+import imagemMenino from './img/imagem.png';
+import imagemMenina from './img/menina.png';
 
 function CounterApp() {
   const [maleCount, setMaleCount] = useState(0);
@@ -40,7 +40,7 @@ function CounterApp() {
       <div style={styles.row}>
         {/* Homens */}
         <div style={styles.section}>
-          <img src={styles.imagemmenino} />
+        <img src={imagemMenino} alt="Menino" style={styles.img} />
           <div style={styles.counter}>{maleCount}</div>
           <div style={styles.buttons}>
             <button style={styles.addButton} onClick={handleMaleAdd}>+</button>
@@ -51,7 +51,7 @@ function CounterApp() {
 
         {/* Mulheres */}
         <div style={styles.section}>
-          <img src={styles.imagemmenina} />
+        <img src={imagemMenina} alt="Menina" style={styles.img} />
           <div style={styles.counter}>{femaleCount}</div>
           <div style={styles.buttons}>
             <button style={styles.addButton} onClick={handleFemaleAdd}>+</button>
