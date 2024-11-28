@@ -1,26 +1,31 @@
-export const people = [{
+export let people = [{
+    id: 0,
+    name: 'Creola Katherine Johnson',
+    profession: 'mathematician',
+    accomplishment: 'spaceflight calculations',
+    imageId: 'MK3eW3A'
+}, {
     id: 1,
-    name: 'creola Katherine Jhonson',
-    profession: 'Programador',
-    accomplishment: 'calculations',
-    imageId: ''
+    name: 'Mario José Molina-Pasquel Henriquez',
+    profession: 'chemist',
+    accomplishment: 'discovery of Arctic ozone hole',
+    imageId: 'mynHUSa'
 }, {
     id: 2,
-    name: 'creola Katherine Jhonson',
-    profession: 'Programador',
-    accomplishment: 'calculations',
-    imageId: ''
-
+    name: 'Mohammad Abdus Salam',
+    profession: 'physicist',
+    accomplishment: 'electromagnetism theory',
+    imageId: 'bE7W1ji'
 }, {
     id: 3,
-    name: 'creola Katherine Jhonson',
-    profession: 'Programador',
-    accomplishment: 'calculations',
-    imageId: ''
+    name: 'Percy Lavon Julian',
+    profession: 'chemist',
+    accomplishment: 'pionnering cortisone drugs, steroids',
+    imageId: 'IOjWm71'
 }, {
     id: 4,
-    name: 'creola Katherine Jhonson',
-    profession: 'Programador',
-    accomplishment: 'calculations',
-    imageId: ''
-}]
+    name: 'Subrahmanyan Chandrasekhar',
+    profession: 'astrophysicist',
+    accomplishment: 'white dwarf star mass calculations',
+    imageId: 'lrWQx8l'
+}];
